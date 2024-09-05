@@ -1,1 +1,11 @@
 @import url(./reset.css);
+
+:root{
+    --raisin-black: #2b2a33ff;
+    --onyx: #42414dff;
+    --white-smoke: #f1f0f0ff;
+}
+
+header h1{
+
+}
