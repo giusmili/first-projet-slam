@@ -14,7 +14,7 @@ header h1{
    font-weight: normal;
 }
 figure{
-    max-width: 108.0rem;
+    max-width: 108.0rem; /* 1080px */
     margin: 5rem auto;
     border: solid .1rem transparent;
     background-color: var(--onyx);
