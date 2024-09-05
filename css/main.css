@@ -7,5 +7,27 @@
 }
 
 header h1{
-
+   background-color: var(--onyx);
+   color: var(--white-smoke);
+   text-align: center;
+   line-height: 7.0rem;
+   font-weight: normal;
+}
+figure{
+    max-width: 108.0rem;
+    margin: 5rem auto;
+    border: solid .1rem transparent;
+    background-color: var(--onyx);
+    padding: 1rem;
+    border-radius: .8rem;
+}
+figure figcaption{
+    text-align: center;
+}
+figure figcaption h2{
+    font-weight: normal;
+    line-height: 5rem;
+}
+footer *{
+    text-align: center;
 }
