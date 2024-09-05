@@ -18,3 +18,5 @@ Ce projet permet d'apprendre à créer qon Portfolio
 </body>
 </html>
 ```
+## Charte graphique
+![Troll](./asset/palette%20couleur.png)

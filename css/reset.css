@@ -13,6 +13,8 @@ body {
     line-height: 1.6;
     margin: 0;
     font: 1.6rem sans-serif; /* Définit une taille de texte par défaut de 16px */
+    background-color: var(--raisin-black);
+    color: var(--white-smoke);
 }
 
 ol, ul {
