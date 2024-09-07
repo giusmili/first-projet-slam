@@ -10,9 +10,12 @@ h1, h2, h3, h4, h5, h6, p, ol, ul, figure, blockquote, dl, dd {
 }
 
 body {
+    font: 1.6rem sans-serif; /* Définit une taille de texte par défaut de 16px */
     line-height: 1.6;
     margin: 0;
-    font: 1.6rem sans-serif; /* Définit une taille de texte par défaut de 16px */
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100svh;
     background-color: var(--raisin-black);
     color: var(--white-smoke);
 }
