@@ -10,7 +10,7 @@ header h1{
    background-color: var(--onyx);
    color: var(--white-smoke);
    text-align: center;
-   line-height: 7.0rem;
+   line-height: 9.0rem;
    font-weight: 400;
    text-shadow:#ffae00 .1rem .1rem 0,
    #aa0306 .2rem .2rem 0,
@@ -38,8 +38,15 @@ figure figcaption{
     text-align: center;
 }
 figure figcaption h2{
-    font-weight: normal;
-    line-height: 5rem;
+    font-weight: 400;
+    color: #fff;
+    text-shadow:
+      .1rem .1rem 0 #000,
+      -.1rem .1rem 0 #000,
+      -.1rem -.1rem 0 #000,
+      .1rem -.1rem 0 #000;
+      font-size: xx-large;
+
 }
 footer *{
     text-align: center;
