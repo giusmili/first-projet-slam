@@ -6,7 +6,7 @@
 <body>
     <header>
         <h1>
-            🔥 Take back control
+            🔥 <?= $element->title ?>
         </h1>
     </header>
     
@@ -15,7 +15,7 @@
             <figcaption>
               <h2>
                 🚀
-                Language 
+                <?= User::$sub_title ?>
                 <a href="https://www.pokepedia.fr/Conseil_4#Conseil_4_d'%C3%89ternara" target="blank">Elite Four</a></h2>
             </figcaption>
             <!-- banniere -->
