@@ -1,33 +1,87 @@
 @import url(./reset.css);
 
-:root{
-    --raisin-black: #2b2a33ff;
-    --onyx: #42414dff;
-    --white-smoke: #f1f0f0ff;
+:root {
+  --raisin-black: #2b2a33ff;
+  --onyx: #42414dff;
+  --white-smoke: #f1f0f0ff;
 }
 
-header h1{
-   background-color: var(--onyx);
-   color: var(--white-smoke);
-   text-align: center;
-   line-height: 7.0rem;
-   font-weight: normal;
+header h1 {
+  background-color: var(--onyx);
+  color: var(--white-smoke);
+  text-align: center;
+  line-height: 9rem;
+  font-weight: 400;
+  text-shadow: #ffae00 0.1rem 0.1rem 0, #aa0306 0.2rem 0.2rem 0,
+    #7c0003 0.3rem 0.3rem 0.3rem;
+  color: #ffe69a;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 5.4rem 5.5rem,
+    rgba(0, 0, 0, 0.12) 0 -1.2rem 3, rgba(0, 0, 0, 0.12) 0 0.4rem 0.6rem,
+    rgba(0, 0, 0, 0.17) 0 1.2rem 1.3rem, rgba(0, 0, 0, 0.09) 0 -0.3rem 0.5rem;
+
+  font-size: 5rem;
 }
-figure{
-    max-width: 108.0rem;
-    margin: 5rem auto;
-    border: solid .1rem transparent;
-    background-color: var(--onyx);
-    padding: 1rem;
-    border-radius: .8rem;
+figure:nth-of-type(1) > ul{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
 }
-figure figcaption{
-    text-align: center;
+figure:nth-of-type(1) > 
+ul li img{
+    height: 15rem;
 }
-figure figcaption h2{
-    font-weight: normal;
-    line-height: 5rem;
+figure:nth-of-type(1) > 
+ul li {
+    position: relative;
+    width: 20rem;
+    padding-bottom: 1rem;
+  }
+  
+  li:after {
+    content: 'Data: ' attr(data-id);
+    position: absolute;
+    top: -2.2rem;
+    left: 1rem;
+    background: black;
+    color: #ffffff;
+    padding: .4rem;
+    border: .1rem solid #eee;
+    opacity: 0;
+    transition: 0.5s opacity;
+  }
+  
+  li:hover:after {
+    opacity: 1;
+    cursor: pointer;
+  }
+figure:nth-of-type(1) > figcaption {
+  display: block;
+  word-break: break-word;
+  margin: 1rem 0;
+  text-align: center;
 }
-footer *{
-    text-align: center;
+
+figure {
+  max-width: 108rem; /* 1080px */
+  margin: 5rem auto;
+  border: solid 0.1rem transparent;
+  background-color: var(--onyx);
+  padding: 1rem;
+  border-radius: 0.8rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 5.4rem 5.5rem,
+    rgba(0, 0, 0, 0.12) 0 -1.2rem 3, rgba(0, 0, 0, 0.12) 0 0.4rem 0.6rem,
+    rgba(0, 0, 0, 0.17) 0 1.2rem 1.3rem, rgba(0, 0, 0, 0.09) 0 -0.3rem 0.5rem;
+}
+figure figcaption {
+  text-align: center;
+}
+figure figcaption h2 {
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 0.1rem 0.1rem 0 #000, -0.1rem 0.1rem 0 #000,
+    -0.1rem -0.1rem 0 #000, 0.1rem -0.1rem 0 #000;
+  font-size: xx-large;
+}
+footer * {
+  text-align: center;
 }
