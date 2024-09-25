@@ -1,6 +1,6 @@
 <?php
     include_once __DIR__.'/controller/baseController.php';
-
+    include_once __DIR__.'/template/header.inc.php';
 ?>
 <body>
     <header>
@@ -34,7 +34,7 @@
           </figure>
         <figure>
             <img 
-            src="./asset/grand troll.png"
+            src="./asset/grand-troll.png"
             alt="troll figurine" 
             loading="lazy"
             >
