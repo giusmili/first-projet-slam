@@ -1,6 +1,6 @@
 # 🚀Projet de développement web
 Ce projet permet d'apprendre à créer qon Portfolio
-![Troll](./asset/grand%20troll.png)
+![Troll](./asset/grand-troll.png)
 
 ## Ci-dessous le code init
 ```html
